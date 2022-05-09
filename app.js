@@ -1,5 +1,5 @@
 // save the number entered to a var
-let inputNumber = 1050;
+let inputNumber = 2390;
 // select the input number and display var
 document.getElementById("input__number").textContent = inputNumber;
 
@@ -12,7 +12,6 @@ let resultKilo = document.getElementById("result__kilos");
 
 function toFeet() {
   feetResult = inputNumber / 12;
-  Math.round(feetResult);
   resultLength.textContent = feetResult;
 }
 
@@ -24,7 +23,6 @@ console.log(feetResult);
 
 function toGallon() {
   gallonResult = inputNumber * 4.5;
-  Math.round(gallonResult);
   resultGallon.textContent = gallonResult;
 }
 
@@ -36,7 +34,6 @@ console.log(gallonResult);
 
 function toKilos() {
   kilosResult = inputNumber / 1000;
-  Math.round(kilosResult);
   resultKilo.textContent = kilosResult;
 }
 
