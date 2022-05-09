@@ -31,6 +31,6 @@ body {
   text-align: center;
 }
 
-.result {
+#input__number {
   font-size: 75px;
 }
